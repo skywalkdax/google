@@ -1,6 +1,5 @@
 # google
 ```
----
 services:
   chromium:
     image: lscr.io/linuxserver/chromium:latest
@@ -21,3 +20,4 @@ services:
       - 3011:3001   #Change 3011 to your favorite port if needed
     shm_size: "2gb"
     restart: unless-stopped
+```
